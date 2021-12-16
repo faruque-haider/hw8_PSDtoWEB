@@ -1,0 +1,356 @@
+/* Univarsal Selectors */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.global-heading{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.global-p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white;
+    
+}
+section{
+    padding: 50px 0px;
+}
+.global-button{
+    background-color: #e8631c;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 600;
+    font-size: 17px;
+    border: none;
+}
+
+/* Header part */
+#header{
+    width: 100%;
+    float: left;
+    padding: 10px 0px;
+    background-color: #303030;
+}
+.logo-part{
+    width: 20%;
+    float: left;
+}
+.logo-part img{
+    width: 35%;
+}
+.menu-part{
+    width: 60%;
+    float: left;
+    padding-top: 10px;
+}
+.menu-part nav ul li{
+    display: inline-block;
+    margin: 0px 18px ;
+}
+.menu-part nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+.menu-part nav ul li a:hover{
+    color: black;
+    background-color: #e8631c;
+    transition-duration: 500ms;
+    font-size: 1.50rem;
+}
+.search-part{
+    width: 20%;
+    float: left;
+    padding-top: 10px;
+}
+.search-part input{
+    width: 80%;
+    float: left;
+    font-size: 17px;
+    padding: 10px 5px;
+    border-radius: 20px;
+}
+.search-part input::placeholder{
+    text-align: center;
+    font-size: 17px;
+}
+.search-part img{
+    width: 08%;
+    float: left;
+    margin: 10px 10px;
+}
+
+/* HERO Section */
+#hero{
+    width: 100%;
+    float: left;
+    background: url(../img/bg-hero.png) no-repeat center;
+    background-size: cover;
+    padding: 50px 0px;
+}
+.hero-wp{
+    width: 50%;
+    float: left;
+    padding: 150px 0 0 0px;
+}
+.hero-wp P{
+    max-width: 400px;
+    color: white;
+    font-size: 18px;
+    margin: 20px 0px;
+}
+/* .hero-wp button{
+    background-color: #e8631c;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-family: 'Oswald', sans-serif; 
+} */
+
+
+/* feature section */
+#feature{
+    width: 100%;
+    float: left;
+    background: url(../img/bg-feature.png) no-repeat center;
+    background-size: cover;
+}
+.feature-text{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.feature-text p{
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+.feature-details{
+    width: 100%;
+    float: left;
+}
+.feature-box{
+    width: 30%;
+    float: left;
+    margin: 1.5%;
+    text-align: center;
+    background-color: #303030;
+    color: white;
+}
+.feature-box img{
+    width: 100%;
+}
+.feature-box h3{
+    font-size: 30px;
+}
+.feature-box p{
+    font-size: 15px;
+}
+.feature-box-details{
+    padding: 30px;
+}
+
+/* offer section */
+#offers{
+    width: 100%;
+    float: left;
+    background: url(../img/bg-offers.png) no-repeat center;
+    background-size: cover;
+}
+.offer-text{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.offer-text p{
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+.offer-details{
+    width: 100%;
+    float: left;
+}
+.offer-box{
+    width: 28%;
+    float: left;
+    margin: 2.5%;
+    text-align: center;
+    background-color: #e8631c;
+    color: white;
+    border-radius: 5px;
+}
+.offer-box img{
+    width: 25%;
+    margin: 20px;
+}
+.offer-box h3{
+    font-size: 30px;
+}
+.offer-box p{
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+.offer-box-details{
+    padding: 30px;
+}
+.offer-box-details button{
+    background-color: #303030;
+}
+
+/* Add part */
+#add{
+    width: 100%;
+    float: left;
+    background: url(../img/bg-add.png) no-repeat center;
+    background-size: cover;
+    padding: 0;
+}
+.add-row{
+    width: 100%;
+    float: left;
+    margin-bottom: -4px;
+}
+.part1{
+    width: 50%;
+    float: left;
+}
+.part1 img{
+    width: 100%;
+}
+.part2{
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 343px 100px 0 100px
+}
+.part2 p{
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.part2 button{
+    background-color: #303030;
+}
+/* Statistics part */
+#statistics{
+    width: 100%;
+    float: left;
+    background-color: #303030;
+}
+.statistics-row1{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin: 80px 0 40px 0;
+}
+.statistics-row2{
+    width: 100%;
+    float: left;
+    margin: 40px 0 80px 0;
+}
+.statistics-row-part{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+/* Dance Style section */
+#dance{
+    width: 100%;
+    float: left;
+    background: url(../img/add-img3.png) no-repeat center;
+    background-size: cover;
+}
+.dance-area{
+    width: 100%;
+    text-align: center;
+    padding: 345px 100px;
+}
+.dance-area p{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+/* Contact section */
+#contact{
+    width: 100%;
+    float: left;
+    background: url(../img/bg-contact.png) no-repeat center;
+    background-size: cover;
+}
+.contact-area{
+    width: 100%;
+    text-align: center;
+    padding: 0 350px;
+}
+.contact-area p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.contact-input input{
+    width: 60%;
+    font-size: 17px;
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+.contact-input input::placeholder{
+    text-align: center;
+    font-size: 17px;
+}
+.contact-input button{
+    background-color: #303030;
+}
+/* Footer Section */
+#footer{
+    width: 100%;
+    float: left;
+    background-color: #303030;
+}
+.coll-big{
+    width: 40%;
+    float: left;
+    padding-right: 30px;
+}
+.coll{
+    width: 20%;
+    float: left;
+    padding: 0 50px;
+}
+.coll-big,.coll{
+    margin: 100px 0px;
+}
+.coll-big p{
+    margin-bottom: 30px;
+}
+.icons{
+
+}
+.icons img{
+    width: 6%;
+    border-radius: 40px;
+}
+.coll-list{
+
+}
+.coll-list ul{
+
+}
+.coll-list ul li{
+    list-style: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
